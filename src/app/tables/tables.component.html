@@ -1,0 +1,8 @@
+<h1>I am in child component</h1>
+<div>
+    <li> <input [(ngModel)]="num" type= "number">
+    <ul>you entered{{num}}   </ul>
+    <button type="button" (click)="onClick()">click me</button>
+    <p *ngFor="let itms of array;let i=index">{{num}}*{{itms}}={{result[i]}}</p>
+    </li>
+</div>
